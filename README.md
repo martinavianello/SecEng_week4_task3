@@ -21,3 +21,8 @@ Out of all 24 attempts, only 2 were successful in my opinion: request 1 (admin; 
 ![bruteforce gordonb](./images/cluster_bomb_attack_gordonb.png)
 
 
+### Subtask 4: Decoder
+
+The encoded and decoded results are in the screenshot below.
+![decoder](./images/decoder.png)
+
