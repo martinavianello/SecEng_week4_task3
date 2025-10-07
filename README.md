@@ -33,8 +33,9 @@ The encoded and decoded results are in the screenshot below.
 I changed the password from "cc" to "bags" and run the command to bruteforce the password. The result of the command can be seen in this screenshot:
 ![bruteforce](./images/bags.png)
 
-
 The whole process to run the command took 32 minutes and 40 seconds. The command I executed is the following:
 
+docker run --rm -it vanhauser/hydra -V -f -I -l admin -x 4:4:a "http-get-form://host.docker.internal/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie:PHPSESSID=j0b4ju6sg85q93lsj4prm5kus2; security=low:F=Username and/or password incorrect"
 
+I set both the minimum and maximum parameters to 4 because I knew the password was made of 4 letters (all lowercase). It is evident that it takes much more effort and time to bruteforce a password made of 4 letters instead of a simpler one like "cc".
 
