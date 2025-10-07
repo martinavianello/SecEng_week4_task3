@@ -16,7 +16,7 @@ A new cookie called dvwaSession is created every time the "Generate" button is p
 
 ### Subtask 3: Intruder
 
-Out of all 24 attempts, only 2 were successfull in my opinion: request 1 (admin; password) and 6 (gordonb; abc123). I ended up with this conclusion because, as you can see in the screenshots below, those two requests were the only ones with response length longer than the other ones. To confirm my theory, I looked at the response of the two requests and found the sentence "welcome to the protected area" insted of "username and/or password incorrect".
+Out of all 24 attempts, only 2 were successful in my opinion: request 1 (admin; password) and 6 (gordonb; abc123). I ended up with this conclusion because, as you can see in the screenshots below, those two requests were the only ones with response length longer than the other ones. To confirm my theory, I looked at the response of the two requests and found the sentence "welcome to the protected area" insted of "username and/or password incorrect".
 ![bruteforce admin](./images/cluster_bomb_attack_admin.png)
 ![bruteforce gordonb](./images/cluster_bomb_attack_gordonb.png)
 
