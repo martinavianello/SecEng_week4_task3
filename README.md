@@ -31,6 +31,7 @@ The encoded and decoded results are in the screenshot below.
 ### Subtask 5
 
 I changed the password from "cc" to "bags" and run the command to bruteforce the password. The result of the command can be seen in this screenshot:
+![bruteforce](./images/bags.png)
 
 
 The whole process to run the command took 32 minutes and 40 seconds. The command I executed is the following:
