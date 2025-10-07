@@ -26,3 +26,10 @@ Out of all 24 attempts, only 2 were successful in my opinion: request 1 (admin; 
 The encoded and decoded results are in the screenshot below.
 ![decoder](./images/decoder.png)
 
+
+### Subtask 5: thc-hydra
+
+I changed the password from "cc" to "bags" and run the command to bruteforce the password. The result of the command can be seen in this screenshot:
+![bags bruteforce](./images/bags_bruteforce.png)
+
+The whole process to run the command took 32 minutes and 40 seconds. The command I executed is the following:
