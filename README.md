@@ -1,4 +1,4 @@
-# Security Engineering - Week 4
+# Security Engineering - Week 4 exercises
 
 ## Task 3: BurpSuite
 
