@@ -35,3 +35,5 @@ I changed the password from "cc" to "bags" and run the command to bruteforce the
 
 The whole process to run the command took 32 minutes and 40 seconds. The command I executed is the following:
 
+
+
